@@ -1,0 +1,17 @@
+{application, course_api,
+ [{description, "curse parser"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {mod, { course_api_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["none"]},
+  {links, []}
+ ]}.
