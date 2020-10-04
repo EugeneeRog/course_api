@@ -6,9 +6,6 @@
 ]).
 
 -define(COURSE, "https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5" ).
-%%=============================================================================
-%% External API
-%%=============================================================================
 
 init(Req0, State) ->
     Req = cowboy_req:reply(200,
